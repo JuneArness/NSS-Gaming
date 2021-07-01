@@ -6,7 +6,8 @@ body {
 .wrap {
     top: 0;
     left: 0;
-    width:100%/
+	height: auto;
+    width:100%;
 }
 
 .menu-container {
@@ -30,19 +31,21 @@ body {
 .menu li {
     color: #B3B3B3;
     display: inline-block;
-    margin-right: 2px;
+    margin-right: -2px;
     position: relative;
     padding: 12px 40px;
     border: 1px solid #9D9FA2;
-    border-radius: 1,5px;
+    border-radius: 1.5px;
     background-color: #387593;
     cursor: pointer;
-}.menu li:hover {
+}
+
+.menu li:hover {
     background-color: #5EAFDF;
     color: #fff;
 }
 
-.menu li: hover ul {
+.menu li:hover ul {
     display: block;
     opacity: 1;
     /* While hovered, drop down-menu appears
@@ -51,7 +54,7 @@ body {
 }
 
 .submenu {
-    padding:0;
+    padding: 0;
     left: 0;
     postion: absolute;
     top: 43.5px;
