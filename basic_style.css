@@ -9,8 +9,8 @@ h1 {
 }
 
 .container {
-	width: 450px
-	height: 450px
+	width: 450px;
+	height: 450px;
 	background-color: 3faebd7;
 	border: 2px solid black;
 	border-radius: 5%;
@@ -19,24 +19,23 @@ h1 {
 /*---------------------------------------------
      SELECT ALL SQAURES IN THE ARRAY
 ----------------------------------------------*/
-.comtainer .squares:nth-child(-n+4) {
+.container .squares:nth-child(-n+4) {
 	background-image: url("../images/icon/smileyfaces2.png")
-	color: #fff
+	color: #fff;
 	float: left;
 	width: 100px;
 	height: 100px;
 	margin: 5px;
 	border: 1px solid black;
 	border-radius: 254;
-	cursor: pointer
-	transition; 
+	cursor: pointer;
 }
 
 /*-----------------------------------------------
     SELECT ALL SQAURES PARAGRAPHS IN THE ARRAY
 	--------------------------------------------*/
 .squares:nth-child(-n+4) p{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-
+	font-family: "Helvetica Neue", Helvetica, Arial;
 	font-size: 1.5cm;
 	font-weight:900;
 	text-align: center;
@@ -69,7 +68,7 @@ h1 {
 	background-image:url("../images/icon/smileyfaces1.png");
 	transform: scale(.5);
 	animation-name:race;
-	animation-duration: 2,5%
+	animation-duration: 2,5%;
 	animation-iteration-count: infinite;
 	animation-timing-function:cubic-bezier(2.5,.2,.3,2);
 	}
