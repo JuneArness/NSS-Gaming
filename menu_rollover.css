@@ -56,13 +56,13 @@ body {
 .submenu {
     padding: 0;
     left: 0;
-    postion: absolute;
+    position: absolute;
     top: 43.5px;
     width: 125.5px;
     opacity: 0;
     /* While not being hovered, drop down-menu hides
        This also avoides a block-level bug  */
-    visiblity: hidden;
+    visibility: hidden;
 }
 
 .submenu li {
